@@ -23,8 +23,8 @@ cutoff_time = datetime.time(16,0,0)
 # Set up SMS Client
 client = boto3.client(
     "sns",
-    aws_access_key_id="AKIAJO7N4EU4XWZLAUPQ",
-    aws_secret_access_key="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",
+    aws_access_key_id=access_key_id,
+    aws_secret_access_key=access_key,
     region_name="us-east-1"
 )
 
